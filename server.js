@@ -2,10 +2,6 @@
  * Created by sakshi on 14/2/17.
  */
 
-/**
- * Created by championswimmer on 12/02/17.
- */
-
 const express = require('express');
 const app = express();
 const db = require('./db');
@@ -15,7 +11,6 @@ const bodyParser = require('body-parser');
 
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({extended: true}));
-
 
 
 app.get('/ecom/all', (req, res) => {
