@@ -1,16 +1,13 @@
 /**
  * Created by sakshi on 14/2/17.
  */
-/**
- * Created by championswimmer on 12/02/17.
- */
 
 const mysql = require('mysql');
 
 let dbconf = {
     host: 'localhost',
     user: 'newuser',
-    password: 'Shruti123',
+    password: '**',
     database: 'ecomdb'
 };
 
