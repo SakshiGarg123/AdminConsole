@@ -1,3 +1,5 @@
+This acts as admin interface to add the products.
+
 Install the dependencies-
 npm install body-parser express mongodb mysql
 
